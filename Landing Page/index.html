@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eletricista - Samuel Araujo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #f3d00b;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 0;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #f3d00b;
+    }
+
+    .flex {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      flex: 1 1 250px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    form input, form textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 1rem;
+      background: #f3d00b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: #f3d00b;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .flex {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eletricista</h1>
+    
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>Serviços</h2>
+      <div class="flex">
+        <div class="card">
+          <h3>CHUVEIROS</h3>
+          <p>Instalação, Reparo de fiação e Troca de Resistência</p>
+        </div>
+        <div class="card">
+          <h3>TOMADAS</h3>
+          <p>Interruptores e Tomadas 10A/20A - 110v/220v</p>
+        </div>
+        <div class="card">
+          <h3>ILUMINAÇÃO</h3>
+          <p>Projetos de Instalação e Substituição de Luminárias e Lâmpadas</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Eletricista altamente capacitado, com diversas certificações e avaliações.
+        Atendemos todas as regiões de São Paulo com a maior agilidade e respeito buscando e prezando sempre por um serviço de qualidade.
+      </p>
+    </section>
+
+    <section>
+      <h2>Vantagens e Benefícios</h2>
+  <div class="flex">
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/worker-male--v1.png" alt="Atendimento Personalizado" width="80">
+      <h3>Atendimento Agíl e Funcional</h3>
+      <p>Cada atendimento é adaptado às suas necessidades individuais.</p>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/light-on.png" alt="Serviços Diversificados" width="80">
+      <h3>Serviços Diversificados</h3>
+      <p>Oferecemos uma ampla gama de serviços elétricos.</p>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/color/96/good-quality.png" alt="Excelência e Qualidade" width="80">
+      <h3>Excelência e Qualidade</h3>
+      <p>Trabalhamos com eficiência e atenção aos detalhes.</p>
+    </div>
+  </div>
+    </section>
+
+    <section>
+      <h2>Entre em Contato</h2>
+      <form>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea rows="5" placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Informações Úteis</h2>
+      <p>📍 Atendo presencialmente em São Paulo - SP em todas as regiões.</p>
+      <p>📞 WhatsApp: (11) 99999-9999</p>
+      <p>📧 E-mail: contato@eletricista.com.br</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Eletricista Samuel Araujo - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
